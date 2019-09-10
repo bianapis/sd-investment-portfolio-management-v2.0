@@ -1,0 +1,36 @@
+{
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceRecord" : {
+    "investmentPortfolioInstanceRecord" : {},
+    "investmentPortfolioTradingPolicies" : {
+      "investmentPortfolioPolicyLimitsandConstraints" : "investmentPortfolioPolicyLimitsandConstraints",
+      "investmentPortfolioPolicyType" : "investmentPortfolioPolicyType",
+      "investmentPortfolioPolicyDescription" : "investmentPortfolioPolicyDescription"
+    },
+    "investmentPortfolioInstanceReference" : "715208",
+    "investmentPortfolioHoldings" : {
+      "investmentPortfolioSecurityType" : "investmentPortfolioSecurityType",
+      "investmentPortfolioSecurityHolding" : "investmentPortfolioSecurityHolding"
+    }
+  },
+  "tradeInitiationInstanceRecord" : {
+    "investmentPortfolioTradeRequest" : {
+      "investmentPortfolioTradeSecurityType" : "investmentPortfolioTradeSecurityType",
+      "investmentPortfolioTradeSecurityTradeDescription" : "investmentPortfolioTradeSecurityTradeDescription"
+    }
+  },
+  "tradeInitiationInstanceReport" : {
+    "tradeInitiationInstanceReportType" : "tradeInitiationInstanceReportType",
+    "tradeInitiationInstanceReportRecord" : {},
+    "tradeInitiationInstanceReport" : {},
+    "tradeInitiationInstanceReportParameters" : "tradeInitiationInstanceReportParameters"
+  },
+  "tradeInitiationRetrieveActionTaskRecord" : {},
+  "tradeInitiationRetrieveActionResponse" : "tradeInitiationRetrieveActionResponse",
+  "tradeInitiationInstanceAnalysis" : {
+    "tradeInitiationInstanceAnalysisReportType" : "tradeInitiationInstanceAnalysisReportType",
+    "tradeInitiationInstanceAnalysisReport" : {},
+    "tradeInitiationInstanceAnalysisRecord" : {},
+    "tradeInitiationInstanceAnalysisParameters" : "tradeInitiationInstanceAnalysisParameters"
+  },
+  "tradeInitiationRetrieveActionTaskReference" : "TIRATR728506"
+}

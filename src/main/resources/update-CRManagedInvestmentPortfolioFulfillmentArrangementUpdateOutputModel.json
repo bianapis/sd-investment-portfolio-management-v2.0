@@ -1,0 +1,18 @@
+{
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceRecord" : {
+    "investmentPortfolioInstanceRecord" : {},
+    "investmentPortfolioTradingPolicies" : {
+      "investmentPortfolioPolicyLimitsandConstraints" : "investmentPortfolioPolicyLimitsandConstraints",
+      "investmentPortfolioPolicyType" : "investmentPortfolioPolicyType",
+      "investmentPortfolioPolicyDescription" : "investmentPortfolioPolicyDescription"
+    },
+    "investmentPortfolioInstanceReference" : "759230",
+    "investmentPortfolioHoldings" : {
+      "investmentPortfolioSecurityType" : "investmentPortfolioSecurityType",
+      "investmentPortfolioSecurityHolding" : "investmentPortfolioSecurityHolding"
+    }
+  },
+  "managedInvestmentPortfolioFulfillmentArrangementUpdateActionTaskRecord" : {},
+  "managedInvestmentPortfolioFulfillmentArrangementUpdateActionTaskReference" : "MIPFAUATR795970",
+  "updateResponseRecord" : {}
+}

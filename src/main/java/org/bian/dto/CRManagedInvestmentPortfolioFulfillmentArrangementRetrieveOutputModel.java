@@ -1,0 +1,115 @@
+package org.bian.dto;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.bian.dto.CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis;
+import org.bian.dto.CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecord;
+import org.bian.dto.CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord;
+
+import javax.validation.Valid;
+  
+/**
+ * CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModel
+ */
+public class CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModel   {
+  private CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecord managedInvestmentPortfolioFulfillmentArrangementInstanceRecord = null;
+
+  private String managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference = null;
+
+  private Object managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord = null;
+
+  private String managedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse = null;
+
+  private CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord managedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord = null;
+
+  private CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis = null;
+
+
+  /**
+   * Get managedInvestmentPortfolioFulfillmentArrangementInstanceRecord
+   * @return managedInvestmentPortfolioFulfillmentArrangementInstanceRecord
+  **/
+
+  public CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecord getManagedInvestmentPortfolioFulfillmentArrangementInstanceRecord() {
+    return managedInvestmentPortfolioFulfillmentArrangementInstanceRecord;
+  }
+
+  public void setManagedInvestmentPortfolioFulfillmentArrangementInstanceRecord(CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecord managedInvestmentPortfolioFulfillmentArrangementInstanceRecord) {
+    this.managedInvestmentPortfolioFulfillmentArrangementInstanceRecord = managedInvestmentPortfolioFulfillmentArrangementInstanceRecord;
+  }
+
+
+  /**
+   * `status: Not Mapped`  core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::ISO20022andUNCEFACT::Identifier  general-info: Reference to a Managed Investment Portfolio Fulfillment Arrangement instance retrieve service call 
+   * @return managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference
+  **/
+
+  public String getManagedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference() {
+    return managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference;
+  }
+
+  public void setManagedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference(String managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference) {
+    this.managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference = managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference;
+  }
+
+
+  /**
+   * `status: Not Mapped`  core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::UNCEFACT::Binary  general-info: The retrieve service call consolidated processing record 
+   * @return managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord
+  **/
+
+  public Object getManagedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord() {
+    return managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord;
+  }
+
+  public void setManagedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord(Object managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord) {
+    this.managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord = managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord;
+  }
+
+
+  /**
+   * `status: Not Mapped`  core-data-type-reference: BIAN::DataTypesLibrary::CoreDataTypes::UNCEFACT::Text  general-info: Details of the retrieve action service response (lists returned reports) 
+   * @return managedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse
+  **/
+
+  public String getManagedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse() {
+    return managedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse;
+  }
+
+  public void setManagedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse(String managedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse) {
+    this.managedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse = managedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse;
+  }
+
+
+  /**
+   * Get managedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord
+   * @return managedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord
+  **/
+
+  public CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord getManagedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord() {
+    return managedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord;
+  }
+
+  public void setManagedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord(CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord managedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord) {
+    this.managedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord = managedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord;
+  }
+
+
+  /**
+   * Get managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis
+   * @return managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis
+  **/
+
+  public CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis getManagedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis() {
+    return managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis;
+  }
+
+  public void setManagedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis(CRManagedInvestmentPortfolioFulfillmentArrangementRetrieveOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis) {
+    this.managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis = managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis;
+  }
+
+
+}
+

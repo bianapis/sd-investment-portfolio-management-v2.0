@@ -1,0 +1,28 @@
+{
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceRecord" : {
+    "investmentPortfolioInstanceRecord" : {},
+    "investmentPortfolioTradingPolicies" : {
+      "investmentPortfolioPolicyLimitsandConstraints" : "investmentPortfolioPolicyLimitsandConstraints",
+      "investmentPortfolioPolicyType" : "investmentPortfolioPolicyType",
+      "investmentPortfolioPolicyDescription" : "investmentPortfolioPolicyDescription"
+    },
+    "investmentPortfolioInstanceReference" : "716368",
+    "investmentPortfolioHoldings" : {
+      "investmentPortfolioSecurityType" : "investmentPortfolioSecurityType",
+      "investmentPortfolioSecurityHolding" : "investmentPortfolioSecurityHolding"
+    }
+  },
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysis" : {
+    "managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysisData" : "managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysisData",
+    "managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysisReport" : {},
+    "managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysisReportType" : "managedInvestmentPortfolioFulfillmentArrangementInstanceAnalysisReportType"
+  },
+  "managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskReference" : "MIPFARATR732652",
+  "managedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse" : "managedInvestmentPortfolioFulfillmentArrangementRetrieveActionResponse",
+  "managedInvestmentPortfolioFulfillmentArrangementRetrieveActionTaskRecord" : {},
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceReportRecord" : {
+    "managedInvestmentPortfolioFulfillmentArrangementInstanceReportData" : "managedInvestmentPortfolioFulfillmentArrangementInstanceReportData",
+    "managedInvestmentPortfolioFulfillmentArrangementInstanceReportType" : "managedInvestmentPortfolioFulfillmentArrangementInstanceReportType",
+    "managedInvestmentPortfolioFulfillmentArrangementInstanceReport" : {}
+  }
+}

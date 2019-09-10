@@ -1,0 +1,36 @@
+{
+  "trackInstanceRecord" : {
+    "investmentPortfolioSecuritySensitivity" : {
+      "projectedValuation" : "projectedValuation",
+      "projectedPortfolioImpact" : "projectedPortfolioImpact"
+    }
+  },
+  "trackRetrieveActionTaskReference" : "TRATR712244",
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceRecord" : {
+    "investmentPortfolioInstanceRecord" : {},
+    "investmentPortfolioTradingPolicies" : {
+      "investmentPortfolioPolicyLimitsandConstraints" : "investmentPortfolioPolicyLimitsandConstraints",
+      "investmentPortfolioPolicyType" : "investmentPortfolioPolicyType",
+      "investmentPortfolioPolicyDescription" : "investmentPortfolioPolicyDescription"
+    },
+    "investmentPortfolioInstanceReference" : "730607",
+    "investmentPortfolioHoldings" : {
+      "investmentPortfolioSecurityType" : "investmentPortfolioSecurityType",
+      "investmentPortfolioSecurityHolding" : "investmentPortfolioSecurityHolding"
+    }
+  },
+  "trackInstanceReport" : {
+    "trackInstanceReportParameters" : "trackInstanceReportParameters",
+    "trackInstanceReport" : {},
+    "trackInstanceReportType" : "trackInstanceReportType",
+    "trackInstanceReportRecord" : {}
+  },
+  "trackRetrieveActionResponse" : "trackRetrieveActionResponse",
+  "trackRetrieveActionTaskRecord" : {},
+  "trackInstanceAnalysis" : {
+    "trackInstanceAnalysisParameters" : "trackInstanceAnalysisParameters",
+    "trackInstanceAnalysisReportType" : "trackInstanceAnalysisReportType",
+    "trackInstanceAnalysisRecord" : {},
+    "trackInstanceAnalysisReport" : {}
+  }
+}

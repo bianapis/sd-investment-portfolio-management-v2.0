@@ -1,0 +1,17 @@
+{
+  "managedInvestmentPortfolioFulfillmentArrangementRequestActionTaskReference" : "MIPFARATR766482",
+  "managedInvestmentPortfolioFulfillmentArrangementRequestActionTaskRecord" : {},
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceRecord" : {
+    "investmentPortfolioTradingPolicies" : {
+      "investmentPortfolioPolicyLimitsandConstraints" : "investmentPortfolioPolicyLimitsandConstraints",
+      "investmentPortfolioPolicyType" : "investmentPortfolioPolicyType",
+      "investmentPortfolioPolicyDescription" : "investmentPortfolioPolicyDescription"
+    },
+    "investmentPortfolioHoldings" : {
+      "investmentPortfolioSecurityType" : "investmentPortfolioSecurityType",
+      "investmentPortfolioSecurityHolding" : "investmentPortfolioSecurityHolding"
+    }
+  },
+  "requestRecordReference" : "RRR795792",
+  "requestResponseRecord" : {}
+}

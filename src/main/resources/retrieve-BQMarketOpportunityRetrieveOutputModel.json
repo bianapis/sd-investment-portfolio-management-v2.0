@@ -1,0 +1,30 @@
+{
+  "marketOpportunityInstanceReport" : {
+    "marketOpportunityInstanceReport" : {},
+    "marketOpportunityInstanceReportParameters" : "marketOpportunityInstanceReportParameters",
+    "marketOpportunityInstanceReportRecord" : {},
+    "marketOpportunityInstanceReportType" : "marketOpportunityInstanceReportType"
+  },
+  "marketOpportunityInstanceAnalysis" : {
+    "marketOpportunityInstanceAnalysisRecord" : {},
+    "marketOpportunityInstanceAnalysisParameters" : "marketOpportunityInstanceAnalysisParameters",
+    "marketOpportunityInstanceAnalysisReportType" : "marketOpportunityInstanceAnalysisReportType",
+    "marketOpportunityInstanceAnalysisReport" : {}
+  },
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceRecord" : {
+    "investmentPortfolioInstanceRecord" : {},
+    "investmentPortfolioTradingPolicies" : {
+      "investmentPortfolioPolicyLimitsandConstraints" : "investmentPortfolioPolicyLimitsandConstraints",
+      "investmentPortfolioPolicyType" : "investmentPortfolioPolicyType",
+      "investmentPortfolioPolicyDescription" : "investmentPortfolioPolicyDescription"
+    },
+    "investmentPortfolioInstanceReference" : "713091",
+    "investmentPortfolioHoldings" : {
+      "investmentPortfolioSecurityType" : "investmentPortfolioSecurityType",
+      "investmentPortfolioSecurityHolding" : "investmentPortfolioSecurityHolding"
+    }
+  },
+  "marketOpportunityRetrieveActionTaskReference" : "MORATR752237",
+  "marketOpportunityRetrieveActionResponse" : "marketOpportunityRetrieveActionResponse",
+  "marketOpportunityRetrieveActionTaskRecord" : {}
+}

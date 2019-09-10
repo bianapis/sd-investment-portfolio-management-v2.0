@@ -1,0 +1,20 @@
+{
+  "tradeInitiationInstanceReference" : "TIIR784059",
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceRecord" : {
+    "investmentPortfolioTradingPolicies" : {
+      "investmentPortfolioPolicyLimitsandConstraints" : "investmentPortfolioPolicyLimitsandConstraints"
+    },
+    "investmentPortfolioHoldings" : {
+      "investmentPortfolioSecurityType" : "investmentPortfolioSecurityType",
+      "investmentPortfolioSecurityHolding" : "investmentPortfolioSecurityHolding"
+    }
+  },
+  "tradeInitiationInstanceRecord" : {
+    "investmentPortfolioTradeRequest" : {
+      "investmentPortfolioTradeSecurityTradeDescription" : "investmentPortfolioTradeSecurityTradeDescription"
+    }
+  },
+  "tradeInitiationInitiateActionRecord" : {},
+  "tradeInitiationInitiateActionReference" : "TIIAR705384",
+  "tradeInitiationInstanceStatus" : "tradeInitiationInstanceStatus"
+}

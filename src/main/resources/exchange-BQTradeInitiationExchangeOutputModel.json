@@ -1,0 +1,25 @@
+{
+  "tradeInitiationExchangeActionTaskRecord" : {},
+  "tradeInitiationExchangeActionResponse" : "tradeInitiationExchangeActionResponse",
+  "managedInvestmentPortfolioFulfillmentArrangementInstanceRecord" : {
+    "investmentPortfolioInstanceRecord" : {},
+    "investmentPortfolioTradingPolicies" : {
+      "investmentPortfolioPolicyLimitsandConstraints" : "investmentPortfolioPolicyLimitsandConstraints",
+      "investmentPortfolioPolicyType" : "investmentPortfolioPolicyType",
+      "investmentPortfolioPolicyDescription" : "investmentPortfolioPolicyDescription"
+    },
+    "investmentPortfolioInstanceReference" : "781430",
+    "investmentPortfolioHoldings" : {
+      "investmentPortfolioSecurityType" : "investmentPortfolioSecurityType",
+      "investmentPortfolioSecurityHolding" : "investmentPortfolioSecurityHolding"
+    }
+  },
+  "tradeInitiationInstanceRecord" : {
+    "investmentPortfolioTradeRequest" : {
+      "investmentPortfolioTradeSecurityType" : "investmentPortfolioTradeSecurityType",
+      "investmentPortfolioTradeSecurityTradeDescription" : "investmentPortfolioTradeSecurityTradeDescription"
+    }
+  },
+  "tradeInitiationExchangeActionTaskReference" : "TIEATR773929",
+  "tradeInitiationInstanceStatus" : "tradeInitiationInstanceStatus"
+}

@@ -1,0 +1,50 @@
+package org.bian.dto;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import io.swagger.annotations.ApiModel;
+import io.swagger.annotations.ApiModelProperty;
+import org.bian.dto.CRManagedInvestmentPortfolioFulfillmentArrangementInitiateInputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecordInvestmentPortfolioHoldings;
+import org.bian.dto.CRManagedInvestmentPortfolioFulfillmentArrangementInitiateOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecordInvestmentPortfolioTradingPolicies;
+
+import javax.validation.Valid;
+  
+/**
+ * CRManagedInvestmentPortfolioFulfillmentArrangementInitiateOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecord
+ */
+public class CRManagedInvestmentPortfolioFulfillmentArrangementInitiateOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecord   {
+  private CRManagedInvestmentPortfolioFulfillmentArrangementInitiateOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecordInvestmentPortfolioTradingPolicies investmentPortfolioTradingPolicies = null;
+
+  private CRManagedInvestmentPortfolioFulfillmentArrangementInitiateInputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecordInvestmentPortfolioHoldings investmentPortfolioHoldings = null;
+
+
+  /**
+   * Get investmentPortfolioTradingPolicies
+   * @return investmentPortfolioTradingPolicies
+  **/
+
+  public CRManagedInvestmentPortfolioFulfillmentArrangementInitiateOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecordInvestmentPortfolioTradingPolicies getInvestmentPortfolioTradingPolicies() {
+    return investmentPortfolioTradingPolicies;
+  }
+
+  public void setInvestmentPortfolioTradingPolicies(CRManagedInvestmentPortfolioFulfillmentArrangementInitiateOutputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecordInvestmentPortfolioTradingPolicies investmentPortfolioTradingPolicies) {
+    this.investmentPortfolioTradingPolicies = investmentPortfolioTradingPolicies;
+  }
+
+
+  /**
+   * Get investmentPortfolioHoldings
+   * @return investmentPortfolioHoldings
+  **/
+
+  public CRManagedInvestmentPortfolioFulfillmentArrangementInitiateInputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecordInvestmentPortfolioHoldings getInvestmentPortfolioHoldings() {
+    return investmentPortfolioHoldings;
+  }
+
+  public void setInvestmentPortfolioHoldings(CRManagedInvestmentPortfolioFulfillmentArrangementInitiateInputModelManagedInvestmentPortfolioFulfillmentArrangementInstanceRecordInvestmentPortfolioHoldings investmentPortfolioHoldings) {
+    this.investmentPortfolioHoldings = investmentPortfolioHoldings;
+  }
+
+
+}
+
